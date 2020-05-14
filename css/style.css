@@ -1,3 +1,69 @@
-.main {
-    background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
+
+
+
+.item {
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;  
+    background: #707070;
+    background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
+    47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
+    padding: 8px 35px;
+    border-right:  1px solid #707070;
+}
+
+.item1 {
+    padding: 3.4px;
+    border-start-start-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.item9 {
+    padding: 6px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #707070;
+    background: #707070;
+    background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
+    47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
+    width: 100px;
+}
+
+
+.background {
+
+    padding: 250px 500px 500px 500px;
+    background-image: url(../img/mainPic.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+
+
+
+/*IMAGENESSSSS*/
+
+.imgContainer {
+    display: flex;
+}
+
+.imgContainer img {
+    flex-grow: 1;
+}
+

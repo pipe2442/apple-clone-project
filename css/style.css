@@ -13,18 +13,18 @@
     background: #707070;
     background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
     47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
-    padding: 8px 35px;
+    padding: 10px 35px;
     border-right:  1px solid #707070;
 }
 
 .item1 {
-    padding: 3.4px;
+    padding: 5.3px;
     border-start-start-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .item9 {
-    padding: 6px;
+    padding: 8px;
     border-end-end-radius: 5px;
     border-top-right-radius: 5px;
 }

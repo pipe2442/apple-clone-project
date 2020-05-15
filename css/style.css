@@ -1,3 +1,12 @@
+main {
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+/*NAVIGATION BAR*/
 
 .container {
     display: flex;
@@ -5,8 +14,6 @@
     align-items: center;
     
 }
-
-
 
 .item {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;  
@@ -29,9 +36,6 @@
     border-top-right-radius: 5px;
     display: flex;
 }
-
-
-
 
 .item a {
     color: white;
@@ -58,16 +62,42 @@ i {
 input[type=text] {
     padding-left: 20px;
     color: white;
+    font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   }
 
+/*NAVIGATION BAR*/
 
-.background {
+.secondContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
 
-    padding: 250px 500px 500px 500px;
+    
+}
+
+.secondContainer div{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/*BACKGROUND MAIN IMAGE*/
+
+article{
+    padding: 200px 500px;
     background-image: url(../img/mainPic.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom;        
 }
+
+/*BACKGROUND MAIN IMAGE*/
+
+
 
 
 
@@ -84,3 +114,4 @@ input[type=text] {
     flex-grow: 1;
 }
 
+/*IMAGENESSSSS*/

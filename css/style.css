@@ -4,7 +4,7 @@ main {
 }
 
 
-
+/*-----------------------------------------------------------------------------*/
 
 /*NAVIGATION BAR*/
 
@@ -65,7 +65,10 @@ input[type=text] {
     font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   }
 
-/*NAVIGATION BAR*/
+
+/*-----------------------------------------------------------------------------*/
+/*main images*/
+
 
 .secondContainer {
    display: flex;
@@ -82,7 +85,7 @@ input[type=text] {
 
 
 
-
+/*-----------------------------------------------------------------------------*/
 
 
 
@@ -95,16 +98,16 @@ article{
     background-position: bottom;        
 }
 
-/*BACKGROUND MAIN IMAGE*/
 
 
 
 
 
+/*-----------------------------------------------------------------------------*/
 
 
 
-/*IMAGENESSSSS*/
+/*BOTTOM IMAGES*/
 
 .imgContainer {
     display: flex;
@@ -114,4 +117,55 @@ article{
     flex-grow: 1;
 }
 
-/*IMAGENESSSSS*/
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*FOOTER*/
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    margin: 20px 150px;
+}
+
+.spans {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#firstSpan {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+}
+
+footer a {
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+  
+}
+
+#ulist li {
+    border-right: solid 1px;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+#usaIcon {
+    padding: 0 10px;
+}
+
+
+

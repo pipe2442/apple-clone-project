@@ -44,11 +44,21 @@ input {
     background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
     47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
     width: 100px;
-    background-image: url(../img/search-icon.PNG);
-    background-repeat: no-repeat;
-    background-position-y: -6px;
+    background-image: ;
     
 }
+
+i {
+    position: relative;
+    left: 18px;
+    top: 5px;
+    color: white;
+}
+
+input[type=text] {
+    padding-left: 20px;
+    color: white;
+  }
 
 
 .background {

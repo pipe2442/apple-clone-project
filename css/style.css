@@ -1,12 +1,7 @@
-main {
+.main {
     position: relative;
     top: 30px;
 }
-
-
-/*-----------------------------------------------------------------------------*/
-
-/*NAVIGATION BAR*/
 
 .container {
     display: flex;
@@ -63,12 +58,7 @@ input[type=text] {
     padding-left: 20px;
     color: white;
     font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  }
-
-
-/*-----------------------------------------------------------------------------*/
-/*main images*/
-
+}
 
 .secondContainer {
    display: flex;
@@ -79,35 +69,16 @@ input[type=text] {
     
 }
 
-.secondContainer div{
+.secondContainer div {
     margin: 20px;
 }
 
-
-
-/*-----------------------------------------------------------------------------*/
-
-
-
-/*BACKGROUND MAIN IMAGE*/
-
-article{
+.article {
     padding: 200px 500px;
     background-image: url(../img/mainPic.jpg);
     background-size: cover;
     background-position: bottom;        
 }
-
-
-
-
-
-
-/*-----------------------------------------------------------------------------*/
-
-
-
-/*BOTTOM IMAGES*/
 
 .imgContainer {
     display: flex;
@@ -117,14 +88,7 @@ article{
     flex-grow: 1;
 }
 
-
-
-/*-----------------------------------------------------------------------------*/
-
-/*FOOTER*/
-
-
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -148,24 +112,15 @@ footer{
 footer ul {
     display: flex;
     flex-direction: row;
-    padding-bottom: 0;
 }
 
 footer a {
     color: rgb(0, 136, 204);
     text-decoration: none;
-  
-}
-
-#ulist li {
-    border-right: solid 1px;
     padding: 0 10px;
     font-size: 10px;
 }
 
-#usaIcon {
-    padding: 0 10px;
-}
 
 
 

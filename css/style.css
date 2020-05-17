@@ -1,126 +1,129 @@
 .main {
-    position: relative;
-    top: 30px;
+  position: relative;
+  top: 30px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .item {
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;  
-    background: #707070;
-    background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
-    47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
-    padding: 10px 35px;
-    border-right:  1px solid #707070;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  padding: 10px 35px;
+  border-right: 1px solid #707070;
+  background:
+    linear-gradient(
+      rgba(138, 138, 138, 1) 0%,
+      rgba(123, 123, 123, 1) 26%,
+      rgba(115, 115, 115, 1) 47%,
+      rgba(95, 95, 95, 1) 48%,
+      rgba(99, 99, 99, 1) 77%,
+      rgba(111, 111, 111, 1) 100%
+    );
 }
 
 .item1 {
-    padding: 5.3px;
-    border-start-start-radius: 5px;
-    border-bottom-left-radius: 5px;
+  padding: 5.3px;
+  border-start-start-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .item9 {
-    padding: 8px;
-    border-end-end-radius: 5px;
-    border-top-right-radius: 5px;
-    display: flex;
-}
-
-.item a {
-    color: white;
-    text-decoration: none;
+  padding: 8px;
+  border-end-end-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
 }
 
 input {
-    border-radius: 10px;
-    border-color: #707070;
-    background: linear-gradient( rgba(138, 138, 138, 1) 0%, rgba(123, 123, 123, 1) 26%, rgba(115, 115, 115, 1) 
-    47%, rgba(95, 95, 95, 1) 48%, rgba(99, 99, 99, 1) 77%, rgba(111, 111, 111, 1) 100% );
-    width: 100px;
-    background-image: ;
-    
+  border-radius: 10px;
+  border-color: #707070;
+  background:
+    linear-gradient(
+      rgba(138, 138, 138, 1) 0%,
+      rgba(123, 123, 123, 1) 26%,
+      rgba(115, 115, 115, 1) 47%,
+      rgba(95, 95, 95, 1) 48%,
+      rgba(99, 99, 99, 1) 77%,
+      rgba(111, 111, 111, 1) 100%
+    );
+  width: 100px;
 }
 
 i {
-    position: relative;
-    left: 18px;
-    top: 5px;
-    color: white;
+  position: relative;
+  left: 18px;
+  top: 5px;
+  color: white;
 }
 
 input[type=text] {
-    padding-left: 20px;
-    color: white;
-    font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  padding-left: 20px;
+  color: white;
+  font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .secondContainer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    
-
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .secondContainer div {
-    margin: 20px;
+  margin: 20px;
 }
 
 .article {
-    padding: 200px 500px;
-    background-image: url(../img/mainPic.jpg);
-    background-size: cover;
-    background-position: bottom;        
+  padding: 200px 500px;
+  background-image: url(../img/mainPic.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .imgContainer {
-    display: flex;
+  display: flex;
 }
 
 .imgContainer img {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 1.2;
-    text-align: center;
-    color: rgb(110, 110, 110);
-    font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-    margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  color: rgb(110, 110, 110);
+  font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.2;
+  margin: 20px 30px;
 }
 
 .spans {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #firstSpan {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 footer ul {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 footer a {
-    color: rgb(0, 136, 204);
-    text-decoration: none;
-    padding: 0 10px;
-    font-size: 10px;
+  color: rgb(0, 136, 204);
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 10px;
 }
 
-
-
-
+.item a {
+  color: white;
+  text-decoration: none;
+}

@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/pipe2442/apple-clone-project/c744de059400b3720ec9bbe97e6d219759764e98/index.html)
+[Live Demo Link](https://rawcdn.githack.com/pipe2442/apple-clone-project/e4097340f780143d59ff1d9991758789566d4ce8/index.html)
 
 
 ## Authors
